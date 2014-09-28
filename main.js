@@ -5,19 +5,28 @@ myApp.factory('Avengers', function() {
     Avengers.cast = [
      {
       name: "Robert Downey Jr.",
-      character: "Tony Stark / Iron Man"
-        },
-        {
-           name: "Chris Evans",
-           character: "Steve Rogers / Captin America"
-        },
-        {
-        name: "Mark Ruffalo",
-        character: "Bruce Banner / The Hulk"
-      },
-    {
-        name: "Tina Benko",
-        character: "NASA Scientist"
+      character: "Tony Stark | Iron Man", 
+      kid: "mike",
+      friend: "Jake"  
+     }, 
+     {
+     name: "Chris Evans",
+     character: "Steve Rogers | Captin America",
+     kid: "Roney",
+     friend: "Mark"
+     },         
+        
+     {
+     name: "Mark Ruffalo",
+     character: "Bruce Banner | The Hulk",
+     kid: "kevin",
+     friend: "mick"       
+     },
+     {
+     name: "Tina Benko",
+     character: "NASA Scientist",
+     kid: "fin",
+     friend: "daniel"  
       }
     ];
     return Avengers;
